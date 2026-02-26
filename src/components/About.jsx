@@ -1,4 +1,5 @@
 import { Code2, Palette, Server, Zap } from 'lucide-react'
+import profileImage from '../assets/iyan.jpeg'
 
 const highlights = [
     {
@@ -39,7 +40,7 @@ export default function About() {
                             <div className="absolute inset-0 glass-card rounded-2xl p-8 flex flex-col items-center justify-center text-center overflow-hidden">
                                 <div className="w-32 h-32 rounded-full bg-gradient-to-br from-[var(--accent-cyan)] to-[var(--accent-purple)] p-[2px] mb-6">
                                     <div className="w-full h-full rounded-full bg-[var(--bg-tertiary)] flex items-center justify-center text-3xl font-bold text-white">
-                                        <img src="/src/assets/iyan.jpeg" alt="Profile" className="w-full h-full rounded-full object-cover" />
+                                        <img src={profileImage} alt="Profile" className="w-full h-full rounded-full object-cover" />
                                     </div>
                                 </div>
 
