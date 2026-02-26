@@ -27,10 +27,10 @@ export default function About() {
     return (
         <section id="about" className="py-24 relative">
             <div className="container mx-auto px-6 max-w-7xl">
-                <div className="flex flex-col lg:flex-row gap-16 items-center">
+                <div className="flex flex-col lg:flex-row gap-16 items-center justify-center">
 
                     {/* Visual Side */}
-                    <div className="w-full lg:w-1/2 flex justify-center lg:justify-end order-2 lg:order-1 relative">
+                    <div className="w-full lg:w-1/2 flex justify-center order-2 lg:order-1 relative">
                         <div className="relative w-full max-w-md aspect-[3/4] md:aspect-square lg:aspect-[3/4]">
                             {/* Abstract decorative elements */}
                             <div className="absolute inset-0 bg-gradient-to-tr from-[var(--glass-border)] to-transparent rounded-2xl border border-white/5 transform translate-x-4 translate-y-4 -z-10"></div>
@@ -39,7 +39,7 @@ export default function About() {
                             <div className="absolute inset-0 glass-card rounded-2xl p-8 flex flex-col items-center justify-center text-center overflow-hidden">
                                 <div className="w-32 h-32 rounded-full bg-gradient-to-br from-[var(--accent-cyan)] to-[var(--accent-purple)] p-[2px] mb-6">
                                     <div className="w-full h-full rounded-full bg-[var(--bg-tertiary)] flex items-center justify-center text-3xl font-bold text-white">
-                                        AA
+                                        <img src="/src/assets/iyan.jpeg" alt="Profile" className="w-full h-full rounded-full object-cover" />
                                     </div>
                                 </div>
 
@@ -49,11 +49,11 @@ export default function About() {
 
                                 <div className="grid grid-cols-2 gap-4 w-full">
                                     <div className="p-3 bg-white/5 rounded-lg border border-white/5">
-                                        <div className="text-2xl font-bold text-white">3+</div>
+                                        <div className="text-2xl font-bold text-white">5+</div>
                                         <div className="text-xs text-[var(--accent-cyan)]">Years Exp.</div>
                                     </div>
                                     <div className="p-3 bg-white/5 rounded-lg border border-white/5">
-                                        <div className="text-2xl font-bold text-white">50+</div>
+                                        <div className="text-2xl font-bold text-white">12+</div>
                                         <div className="text-xs text-[var(--accent-purple)]">Projects</div>
                                     </div>
                                 </div>

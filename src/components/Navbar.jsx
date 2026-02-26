@@ -36,7 +36,7 @@ export default function Navbar() {
                     className="text-2xl font-bold font-['Poppins'] tracking-tight flex items-center gap-1 group"
                 >
                     <span className="text-[var(--accent-cyan)] group-hover:text-white transition-colors">&lt;</span>
-                    <span className="text-white group-hover:tracking-wider transition-all duration-300">Adriansyah</span>
+                    <span className="text-white group-hover:tracking-wider transition-all duration-300">Adriansyah Amir</span>
                     <span className="text-[var(--accent-cyan)] group-hover:text-white transition-colors">/&gt;</span>
                 </a>
 
